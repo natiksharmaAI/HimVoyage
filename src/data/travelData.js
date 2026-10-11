@@ -89,7 +89,7 @@ export const destinations = [
     name: 'Kasol, Tosh & Kheerganga',
     state: 'Himachal Pradesh',
     badge: 'Youth & Treks',
-    image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1000&q=80',
     tagline: 'Parvati Valley Vibes & Hot Springs',
     price: 8999,
     originalPrice: 11499,
@@ -560,7 +560,7 @@ export const reviews = [
 export const faqs = [
   {
     q: 'How do bookings and reservations work on HimVoyage?',
-    a: 'You can reserve any tour package with just a 20% advance token amount. The remaining balance can be paid upon arrival at your pickup point (Delhi/Chandigarh/Dehradun) or before departure. You receive an instant digital booking voucher.'
+    a: 'You can reserve any tour package with instant trip confirmation. No immediate payment deduction is required at booking — the entire trip fare is paid conveniently upon arrival at your pickup point (Delhi/Chandigarh/Dehradun) or before departure. You receive an instant digital confirmation voucher.'
   },
   {
     q: 'Can we customize the tour package or change pickup cities?',

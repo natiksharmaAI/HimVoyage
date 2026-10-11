@@ -416,12 +416,6 @@ export default function BookingModal({ initialData, onClose }) {
                     <span>Total Package Cost</span>
                     <span className="grand-total-amount">₹{grandTotal.toLocaleString('en-IN')}</span>
                   </div>
-
-                  <div className="token-callout-box">
-                    <div className="token-label">Pay Only 20% Token Today to Lock Price</div>
-                    <div className="token-val">₹{tokenAdvance.toLocaleString('en-IN')}</div>
-                    <div className="token-sub">Remaining ₹{(grandTotal - tokenAdvance).toLocaleString('en-IN')} payable on arrival in {pickupCity.split(' ')[0]}</div>
-                  </div>
                 </div>
 
                 <div className="booking-security-badges">
@@ -439,7 +433,7 @@ export default function BookingModal({ initialData, onClose }) {
                   id="submit-booking-btn"
                   disabled={isSubmitting}
                 >
-                  <span>{isSubmitting ? 'Saving to Database...' : 'Confirm Reservation Voucher'}</span>
+                  <span>{isSubmitting ? 'Confirming Trip...' : 'Confirm Trip'}</span>
                   <ArrowRight size={18} />
                 </button>
 
@@ -508,12 +502,12 @@ export default function BookingModal({ initialData, onClose }) {
                   <span className="v-strip-num">₹{grandTotal.toLocaleString('en-IN')}</span>
                 </div>
                 <div>
-                  <span className="v-strip-label">Token Advance (20%)</span>
-                  <span className="v-strip-num green">₹{tokenAdvance.toLocaleString('en-IN')}</span>
+                  <span className="v-strip-label">Payment Mode</span>
+                  <span className="v-strip-num green" style={{ fontSize: '0.95rem' }}>Pay on Arrival</span>
                 </div>
                 <div>
                   <span className="v-strip-label">Status</span>
-                  <span className="v-badge-confirmed">CONFIRMED RESERVATION</span>
+                  <span className="v-badge-confirmed">CONFIRMED TRIP</span>
                 </div>
               </div>
 

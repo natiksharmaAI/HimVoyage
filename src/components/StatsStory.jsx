@@ -11,8 +11,8 @@ export default function StatsStory({ onOpenBooking }) {
           <div className="story-media-col">
             <div className="tall-image-card">
               <img 
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" 
-                alt="Turquoise Himalayan Lake and pine mountains" 
+                src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=1000&q=80" 
+                alt="Emerald Himalayan Alpine Lake and mountain ridges" 
                 className="tall-img"
               />
               <div className="image-floating-badge">
@@ -72,7 +72,7 @@ export default function StatsStory({ onOpenBooking }) {
               </div>
               <div className="trust-item">
                 <CheckCircle2 size={18} className="trust-icon" />
-                <span>Reserve with Just 20% Token Amount</span>
+                <span>Instant Trip Confirmation • Pay on Arrival</span>
               </div>
               <div className="trust-item">
                 <CheckCircle2 size={18} className="trust-icon" />

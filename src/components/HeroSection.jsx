@@ -39,8 +39,8 @@ export default function HeroSection({ onOpenBooking, onSelectDestination }) {
       {/* Background Image Overlay with Mountain Chalet */}
       <div className="hero-bg-media">
         <img 
-          src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=2000&q=85" 
-          alt="Himalayan mountain chalet under twilight sky" 
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2000&q=85" 
+          alt="Majestic snow-capped Himalayan mountain peaks in golden sunlight" 
           className="hero-bg-img"
         />
         <div className="hero-gradient-overlay"></div>
